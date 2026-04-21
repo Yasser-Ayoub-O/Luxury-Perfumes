@@ -1,0 +1,842 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxury Perfumes</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/icons.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+      <i class="fa-solid fa-house header__logo" aria-hidden="true"></i>
+
+      <div class="header__search">
+        <input class="header__search-input" type="text" />
+        <i
+          class="fa-solid fa-magnifying-glass header__search-icon"
+          aria-hidden="true"
+        ></i>
+      </div>
+
+      <nav aria-label="Main navigation">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#home">Home</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#about">About</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#services">Services</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#price">Prices</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#team">Team</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#news">Blog</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#footer">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button
+        class="header__toggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+      >
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+    </header>
+
+    <main>
+      <!-- ===== HERO ===== -->
+      <section class="hero" id="home" aria-label="Hero">
+        <div class="hero__overlay">
+          <div class="hero__content">
+            <h1 class="hero__title">Welcome To Our Website</h1>
+            <p class="hero__text">
+              Discover a world of luxury fragrances with our exclusive
+              collection, blending authenticity and elegance to offer you an
+              unforgettable olfactory experience.
+            </p>
+            <button class="hero__btn hero__btn--secondary">learn more!</button>
+            <button class="hero__btn">git start!</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== ABOUT ===== -->
+      <section id="about" aria-labelledby="about-title">
+        <h2 class="section__title" id="about-title">
+          Discover the world of luxury perfumes
+        </h2>
+        <hr class="section__divider" />
+        <div class="about__grid">
+          <article class="about__card">
+            <div class="about__card-icon" aria-hidden="true">
+              <i class="fas fa-leaf"></i>
+            </div>
+            <h3 class="about__card-title">cerat your signature scent</h3>
+            <p class="about__card-text">
+              A fragrance designed uniquely to match your personality and style.
+            </p>
+            <a class="about__card-link" href="#">Read more</a>
+          </article>
+
+          <article class="about__card">
+            <div class="about__card-icon" aria-hidden="true">
+              <i class="fa-solid fa-spray-can-sparkles"></i>
+            </div>
+            <h3 class="about__card-title">Floral Fragrance Collection</h3>
+            <p class="about__card-text">
+              A range of perfumes with floral notes that add elegance and charm.
+            </p>
+            <a class="about__card-link" href="#">Read more</a>
+          </article>
+
+          <article class="about__card">
+            <div class="about__card-icon" aria-hidden="true">
+              <i class="fa-brands fa-pagelines"></i>
+            </div>
+            <h3 class="about__card-title">Unique Olfactory Experience</h3>
+            <p class="about__card-text">
+              Discover a captivating blend of scents that enchant the senses.
+            </p>
+            <a class="about__card-link" href="#">Read more</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- ===== PORTFOLIO ===== -->
+      <section
+        class="portfolio"
+        id="portfolio"
+        aria-labelledby="portfolio-title"
+      >
+        <div class="portfolio__header">
+          <h2 class="section__title" id="portfolio-title">featured works</h2>
+          <hr class="section__divider portfolio__divider" />
+        </div>
+        <div class="portfolio__grid">
+          <figure class="portfolio__item portfolio__item--left-offset">
+            <img
+              src="./images/Sauvag2.jpg"
+              alt="Sauvage perfume bottle"
+              width="300"
+              height="200"
+            />
+            <figcaption class="portfolio__overlay overlay">
+              <h3 class="portfolio__overlay-title">category</h3>
+              <p>sauvag perfume</p>
+              <div class="portfolio__overlay-actions">
+                <a href="#" aria-label="Like"
+                  ><i class="fa-regular fa-heart portfolio__action-icon"></i
+                ></a>
+                <a href="#" aria-label="Pin on Pinterest"
+                  ><i class="fa-brands fa-pinterest portfolio__action-icon"></i
+                ></a>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="portfolio__item">
+            <img
+              src="./images/Turab-aldhahab-perfume.jpg"
+              alt="Turab Al-Dhahab perfume bottle"
+              width="300"
+              height="200"
+            />
+            <figcaption class="portfolio__overlay overlay">
+              <h3 class="portfolio__overlay-title">category</h3>
+              <p>turab aldahab perfume</p>
+              <div class="portfolio__overlay-actions">
+                <a href="#" aria-label="Like"
+                  ><i class="fa-regular fa-heart portfolio__action-icon"></i
+                ></a>
+                <a href="#" aria-label="Pin on Pinterest"
+                  ><i class="fa-brands fa-pinterest portfolio__action-icon"></i
+                ></a>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="portfolio__item">
+            <img
+              src="./images/OIP.jpg"
+              alt="Luxurious oud perfume bottle"
+              width="300"
+              height="200"
+            />
+            <figcaption class="portfolio__overlay overlay">
+              <h3 class="portfolio__overlay-title">category</h3>
+              <p>luxurious oud perfume</p>
+              <div class="portfolio__overlay-actions">
+                <a href="#" aria-label="Like"
+                  ><i class="fa-regular fa-heart portfolio__action-icon"></i
+                ></a>
+                <a href="#" aria-label="Pin on Pinterest"
+                  ><i class="fa-brands fa-pinterest portfolio__action-icon"></i
+                ></a>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="portfolio__item portfolio__item--left-offset">
+            <img
+              src="./images/perfum-flower.jpg"
+              alt="Floral perfume bottle"
+              width="300"
+              height="200"
+            />
+            <figcaption class="portfolio__overlay overlay">
+              <h3 class="portfolio__overlay-title">category</h3>
+              <p>floral perfume</p>
+              <div class="portfolio__overlay-actions">
+                <a href="#" aria-label="Like"
+                  ><i class="fa-regular fa-heart portfolio__action-icon"></i
+                ></a>
+                <a href="#" aria-label="Pin on Pinterest"
+                  ><i class="fa-brands fa-pinterest portfolio__action-icon"></i
+                ></a>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="portfolio__item">
+            <img
+              src="./images/blue-of-chanel2.jpg"
+              alt="Bleu de Chanel perfume bottle"
+              width="300"
+              height="200"
+            />
+            <figcaption class="portfolio__overlay overlay">
+              <h3 class="portfolio__overlay-title">category</h3>
+              <p>blue of chanel</p>
+              <div class="portfolio__overlay-actions">
+                <a href="#" aria-label="Like"
+                  ><i class="fa-regular fa-heart portfolio__action-icon"></i
+                ></a>
+                <a href="#" aria-label="Pin on Pinterest"
+                  ><i class="fa-brands fa-pinterest portfolio__action-icon"></i
+                ></a>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="portfolio__item">
+            <img
+              src="./images/versace-scaled.jpg"
+              alt="Versace perfume bottle"
+              width="300"
+              height="200"
+            />
+            <figcaption class="portfolio__overlay overlay">
+              <h3 class="portfolio__overlay-title">category</h3>
+              <p>versace perfume</p>
+              <div class="portfolio__overlay-actions">
+                <a href="#" aria-label="Like"
+                  ><i class="fa-regular fa-heart portfolio__action-icon"></i
+                ></a>
+                <a href="#" aria-label="Pin on Pinterest"
+                  ><i class="fa-brands fa-pinterest portfolio__action-icon"></i
+                ></a>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- ===== SERVICES ===== -->
+      <section class="services" id="services" aria-labelledby="services-title">
+        <h2 class="services__title" id="services-title">what we offer</h2>
+        <hr class="section__divider services__divider" />
+        <div class="services__grid">
+          <article class="services__card">
+            <a
+              class="services__card-icon"
+              href="#"
+              aria-label="Premium international perfume"
+            >
+              <i class="fa-solid fa-crown" aria-hidden="true"></i>
+            </a>
+            <div class="services__card-body">
+              <h3 class="services__card-title">
+                premium international perfume
+              </h3>
+              <p class="services__card-text">
+                Indulge in luxury with our collection of world-class perfumes.
+                Let every spray transport you to a realm of elegance and
+                sophistication.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <a
+              class="services__card-icon"
+              href="#"
+              aria-label="Personalized selection service"
+            >
+              <i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i>
+            </a>
+            <div class="services__card-body">
+              <h3 class="services__card-title">
+                personlized selection service
+              </h3>
+              <p class="services__card-text">
+                Not sure which scent suits you best? Our interactive tool will
+                guide you to discover your signature fragrance, designed just
+                for you.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <a class="services__card-icon" href="#" aria-label="Trial samples">
+              <i class="fa-solid fa-eye" aria-hidden="true"></i>
+            </a>
+            <div class="services__card-body">
+              <h3 class="services__card-title">trial samples</h3>
+              <p class="services__card-text">
+                Experience before you commit! Try our miniature samples and find
+                your perfect match without the guesswork.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <a
+              class="services__card-icon"
+              href="#"
+              aria-label="Exclusive gift wrapping"
+            >
+              <i class="fa-solid fa-gift" aria-hidden="true"></i>
+            </a>
+            <div class="services__card-body">
+              <h3 class="services__card-title">Exclusive Gift Wrapping</h3>
+              <p class="services__card-text">
+                Give the gift of love and luxury. Our exclusive wrapping adds a
+                personal touch, making every occasion memorable.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <a
+              class="services__card-icon"
+              href="#"
+              aria-label="Fast and secure delivery"
+            >
+              <i class="fa-solid fa-truck-fast" aria-hidden="true"></i>
+            </a>
+            <div class="services__card-body">
+              <h3 class="services__card-title">Fast and Secure Delivery</h3>
+              <p class="services__card-text">
+                We bring elegance to your doorstep! Enjoy quick and safe
+                delivery to ensure your fragrances arrive perfectly every time.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <a
+              class="services__card-icon"
+              href="#"
+              aria-label="Easy shopping experience"
+            >
+              <i class="fa-solid fa-cart-plus" aria-hidden="true"></i>
+            </a>
+            <div class="services__card-body">
+              <h3 class="services__card-title">
+                Easy and Convenient Shopping Experience
+              </h3>
+              <p class="services__card-text">
+                Enjoy a seamless shopping experience with an intuitive design
+                and easy navigation.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ===== WHY CHOOSE US ===== -->
+      <section class="choose" aria-labelledby="choose-title">
+        <div class="choose__inner">
+          <div class="choose__text">
+            <h2 class="choose__title" id="choose-title">why choose us</h2>
+            <hr class="section__divider choose__divider" />
+            <p class="choose__desc">
+              We believe in creating a truly special experience for our
+              customers, so we've put our heart and soul into every aspect of
+              our business. Here are some reasons why you should choose us.
+            </p>
+            <ul>
+              <li class="choose__list-item">
+                <i class="fa-solid fa-truck-fast" aria-hidden="true"></i> Fast
+                and secure delivery
+              </li>
+              <li class="choose__list-item">
+                <i class="fa-solid fa-heart" aria-hidden="true"></i>
+                Personalized selection service
+              </li>
+              <li class="choose__list-item">
+                <i class="fa-solid fa-gift" aria-hidden="true"></i> Exclusive
+                gift wrapping
+              </li>
+              <li class="choose__list-item">
+                <i class="fa-solid fa-cart-plus" aria-hidden="true"></i> Easy
+                and convenient shopping experience
+              </li>
+              <li class="choose__list-item">
+                <i class="fa-solid fa-shield-alt" aria-hidden="true"></i>
+                Trustworthy and reliable
+              </li>
+              <li class="choose__list-item">
+                <i class="fa-solid fa-user-tie" aria-hidden="true"></i>
+                Professional and dedicated team
+              </li>
+              <li class="choose__list-item">
+                <i class="fa-solid fa-star" aria-hidden="true"></i> Great
+                customer service
+              </li>
+              <li class="choose__list-item">
+                <i class="fa-solid fa-map-marker-alt" aria-hidden="true"></i>
+                Locations around the world
+              </li>
+            </ul>
+          </div>
+
+          <div class="choose__media">
+            <img
+              src="./images/best-choose.jpg"
+              alt="A happy customer enjoying a perfume"
+              width="350"
+              height="480"
+            />
+            <ul class="choose__dots" aria-label="Image indicators">
+              <li class="choose__dot choose__dot--active">
+                <i class="fa-solid fa-circle" aria-hidden="true"></i>
+              </li>
+              <li class="choose__dot">
+                <i class="fa-solid fa-circle" aria-hidden="true"></i>
+              </li>
+              <li class="choose__dot">
+                <i class="fa-solid fa-circle" aria-hidden="true"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== STATS ===== -->
+      <section class="stats" aria-labelledby="stats-title">
+        <h2 class="visually-hidden" id="stats-title">Our Achievements</h2>
+        <div class="stats__overlay">
+          <div class="stats__inner">
+            <div class="stats__grid">
+              <div class="stats__item">
+                <i class="fa-solid fa-users" aria-hidden="true"></i>
+                <h3>400k</h3>
+                <p>happy clients</p>
+              </div>
+
+              <div class="stats__item">
+                <i class="fa-solid fa-trophy" aria-hidden="true"></i>
+                <h3>20</h3>
+                <p>awards won</p>
+              </div>
+
+              <div class="stats__item">
+                <i
+                  class="fa-solid fa-spray-can-sparkles"
+                  aria-hidden="true"
+                ></i>
+                <h3>430k</h3>
+                <p>bottles sold</p>
+              </div>
+
+              <div class="stats__item">
+                <i class="fa-solid fa-file-lines" aria-hidden="true"></i>
+                <h3>60</h3>
+                <p>perfume formulas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== PRICING ===== -->
+      <section class="pricing" id="price" aria-labelledby="pricing-title">
+        <h2 class="pricing__header" id="pricing-title">our pricing</h2>
+        <hr class="section__divider pricing__divider" />
+        <div class="pricing__grid">
+          <article class="pricing__card">
+            <p class="pricing__name">bleu de chanel</p>
+            <div class="pricing__price-circle">
+              <h3 class="pricing__amount">$130</h3>
+              <span>/ 100ml</span>
+            </div>
+            <ul class="pricing__features">
+              <li class="pricing__feature">
+                unstopable freshness and timeless masculine elegance
+              </li>
+              <li class="pricing__feature">the icon of timeless elegance</li>
+              <li class="pricing__feature">
+                bold in design creative in every drop
+              </li>
+            </ul>
+            <button class="pricing__btn">purchase now</button>
+          </article>
+
+          <article class="pricing__card pricing__card--featured">
+            <p class="pricing__name">dior sauvage</p>
+            <div class="pricing__price-circle">
+              <h3 class="pricing__amount">$120</h3>
+              <span>/ 100ml</span>
+            </div>
+            <ul class="pricing__features">
+              <li class="pricing__feature">a symphony of freshness</li>
+              <li class="pricing__feature">
+                exude confidencen with every spritz
+              </li>
+              <li class="pricing__feature">
+                crafted by nature designed for you
+              </li>
+            </ul>
+            <button class="pricing__btn">purchase now</button>
+          </article>
+
+          <article class="pricing__card">
+            <p class="pricing__name">tom ford noir</p>
+            <div class="pricing__price-circle">
+              <h3 class="pricing__amount">$155</h3>
+              <span>/ 100ml</span>
+            </div>
+            <ul class="pricing__features">
+              <li class="pricing__feature">the essnce of seduction</li>
+              <li class="pricing__feature">
+                an evening essential with luxrious depth
+              </li>
+              <li class="pricing__feature">
+                warp yourself in mystery and warmth
+              </li>
+            </ul>
+            <button class="pricing__btn">purchase now</button>
+          </article>
+        </div>
+      </section>
+
+      <!-- ===== TESTIMONIALS ===== -->
+      <section class="testimonials" aria-labelledby="testimonials-title">
+        <h2 class="visually-hidden" id="testimonials-title">Testimonials</h2>
+        <div class="testimonials__overlay">
+          <div class="testimonials__grid">
+            <article class="testimonials__card">
+              <div class="testimonials__profile">
+                <img
+                  src="./images/cheerful-beautiful.jpg"
+                  alt="Portrait of Noura Elsayed"
+                  width="90"
+                  height="90"
+                />
+                <h3>noura elsayed</h3>
+                <span>perfume expert</span>
+              </div>
+              <p class="testimonials__quote">
+                A fragrance as unique as you. Let me be your guide in the world
+                of perfumes, and together we'll find the scent that truly
+                defines you.
+              </p>
+            </article>
+
+            <article class="testimonials__card">
+              <div class="testimonials__profile">
+                <img
+                  src="./images/yasser-ayoub.jpg"
+                  alt="Portrait of Yasser Ayoub"
+                  width="90"
+                  height="90"
+                />
+                <h3>yasser ayoub</h3>
+                <span>perfume maker</span>
+              </div>
+              <p class="testimonials__quote">
+                A perfume that will leave you feeling as confident and bold as
+                you are, and as unique as you are. Let me be your guide in the
+                world of perfumes.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== TEAM ===== -->
+      <section class="team" id="team" aria-labelledby="team-title">
+        <h2 class="team__header" id="team-title">our perfume expert</h2>
+        <hr class="section__divider team__divider" />
+        <div class="team__grid">
+          <article class="team__card">
+            <div class="team__media">
+              <img
+                src="./images/trainer1.jpeg"
+                alt="Portrait of Alaa, scent expert"
+                width="250"
+                height="200"
+                draggable="false"
+              />
+              <div class="team__social" aria-label="Social links">
+                <a class="team__social-link" href="#" aria-label="Facebook"
+                  ><i class="fa-brands fa-facebook" aria-hidden="true"></i
+                ></a>
+                <a class="team__social-link" href="#" aria-label="LinkedIn"
+                  ><i class="fa-brands fa-linkedin" aria-hidden="true"></i
+                ></a>
+                <a class="team__social-link" href="#" aria-label="Instagram"
+                  ><i class="fa-brands fa-instagram" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <div class="team__info">
+              <h3 class="team__name">alaa</h3>
+              <span class="team__role">scent expert</span>
+            </div>
+          </article>
+
+          <article class="team__card team__card--center">
+            <div class="team__media">
+              <img
+                src="./images/artist-white_1368-3546.avif"
+                alt="Portrait of Ahmed, perfume specialist"
+                width="250"
+                height="200"
+              />
+              <div class="team__social" aria-label="Social links">
+                <a class="team__social-link" href="#" aria-label="Facebook"
+                  ><i class="fa-brands fa-facebook" aria-hidden="true"></i
+                ></a>
+                <a class="team__social-link" href="#" aria-label="LinkedIn"
+                  ><i class="fa-brands fa-linkedin" aria-hidden="true"></i
+                ></a>
+                <a class="team__social-link" href="#" aria-label="Instagram"
+                  ><i class="fa-brands fa-instagram" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <div class="team__info">
+              <h3 class="team__name">ahmed</h3>
+              <span class="team__role">perfume specialist</span>
+            </div>
+          </article>
+
+          <article class="team__card">
+            <div class="team__media">
+              <img
+                src="./images/guy-blue-jacket-with-victory-fingers_1187-3001.jpg"
+                alt="Portrait of Khaled Al-Zahiri, fragrance analyst"
+                width="250"
+                height="200"
+              />
+              <div class="team__social" aria-label="Social links">
+                <a class="team__social-link" href="#" aria-label="Facebook"
+                  ><i class="fa-brands fa-facebook" aria-hidden="true"></i
+                ></a>
+                <a class="team__social-link" href="#" aria-label="LinkedIn"
+                  ><i class="fa-brands fa-linkedin" aria-hidden="true"></i
+                ></a>
+                <a class="team__social-link" href="#" aria-label="Instagram"
+                  ><i class="fa-brands fa-instagram" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <div class="team__info">
+              <h3 class="team__name">khaled al-zahiri</h3>
+              <span class="team__role">fragrance analyst</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ===== BLOG ===== -->
+      <section class="blog" id="news" aria-labelledby="blog-title">
+        <h2 class="blog__title" id="blog-title">recent news</h2>
+        <hr class="section__divider blog__divider" />
+        <div class="blog__grid">
+          <article class="blog__card">
+            <img
+              src="./images/handsome7.jpg"
+              alt="Photo of Yasser, marketing manager"
+            />
+            <div class="blog__card-body">
+              <ul class="blog__social">
+                <li class="blog__social-item">
+                  <a href="#" aria-label="Facebook"
+                    ><i class="fa-brands fa-facebook-f" aria-hidden="true"></i
+                  ></a>
+                  yasser
+                </li>
+                <li class="blog__social-item">
+                  <a href="#" aria-label="LinkedIn"
+                    ><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i
+                  ></a>
+                  yasser
+                </li>
+                <li class="blog__social-item">
+                  <a href="#" aria-label="Instagram"
+                    ><i class="fa-brands fa-instagram" aria-hidden="true"></i
+                  ></a>
+                  yaso-elalmy
+                </li>
+              </ul>
+              <h3>Marketing Manager</h3>
+              <p>
+                expert in digital marketing strategies, focusing on creating
+                innovative campaigns to elevate perfume brands. Passionate about
+                telling the story behind every fragrance through engaging and
+                creative content.
+              </p>
+              <a href="#">read more</a>
+            </div>
+          </article>
+
+          <article class="blog__card blog__card--center">
+            <img
+              src="./images/businessman-using-mobil.jpg"
+              alt="Photo of Ahmed, sales consultant"
+            />
+            <div class="blog__card-body">
+              <ul class="blog__social">
+                <li class="blog__social-item">
+                  <a href="#" aria-label="Facebook"
+                    ><i class="fa-brands fa-facebook-f" aria-hidden="true"></i
+                  ></a>
+                  ahmed
+                </li>
+                <li class="blog__social-item">
+                  <a href="#" aria-label="LinkedIn"
+                    ><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i
+                  ></a>
+                  a7med
+                </li>
+                <li class="blog__social-item">
+                  <a href="#" aria-label="Instagram"
+                    ><i class="fa-brands fa-instagram" aria-hidden="true"></i
+                  ></a>
+                  ahmed-ali
+                </li>
+              </ul>
+              <h3>Sales Consultant</h3>
+              <p>
+                Bringing 4 years of experience in customer service within the
+                perfume industry. Helps customers find their perfect fragrance
+                with an exceptional understanding of individual tastes, creating
+                a seamless shopping experience.
+              </p>
+              <a href="#">read more</a>
+            </div>
+          </article>
+
+          <article class="blog__card">
+            <img
+              src="./images/business-woman-office-girl.jpg"
+              alt="Photo of Amira, perfume specialist"
+            />
+            <div class="blog__card-body">
+              <ul class="blog__social">
+                <li class="blog__social-item">
+                  <a href="#" aria-label="Facebook"
+                    ><i class="fa-brands fa-facebook-f" aria-hidden="true"></i
+                  ></a>
+                  amira
+                </li>
+                <li class="blog__social-item">
+                  <a href="#" aria-label="LinkedIn"
+                    ><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i
+                  ></a>
+                  amirra
+                </li>
+                <li class="blog__social-item">
+                  <a href="#" aria-label="Instagram"
+                    ><i class="fa-brands fa-instagram" aria-hidden="true"></i
+                  ></a>
+                  amira-12
+                </li>
+              </ul>
+              <h3>Perfume Specialist</h3>
+              <p>
+                Passionate about crafting unique scents, with a strong
+                background in chemistry and 5 years of experience in the perfume
+                industry. Excellent at understanding customer preferences,
+                delivering tailored fragrance solutions.
+              </p>
+              <a href="#">read more</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" id="footer" aria-label="Site footer">
+      <div class="footer__inner">
+        <div class="footer__image">
+          <img
+            src="./images/perfume-with-floral-aroma.jpg"
+            alt="Perfume bottle with floral aroma"
+            width="250"
+            height="200"
+          />
+        </div>
+        <div class="footer__social">
+          <ul class="footer__social-list">
+            <li class="footer__social-item">
+              <a href="#" aria-label="Facebook"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" aria-label="Twitter"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" aria-label="Instagram"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" aria-label="LinkedIn"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" aria-label="Email"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" aria-label="Phone"
+                ><i class="fa-solid fa-phone"></i
+              ></a>
+            </li>
+          </ul>
+          <p class="footer__copy">
+            &copy; 2026 All right reserved by yasser Ayoub
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
